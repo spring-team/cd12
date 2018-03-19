@@ -27,6 +27,7 @@ class Cd12Controller {
 
     @RequestMapping(method = GET, path = "/")
     public String root() {
+        // some comment
         return "Spring Boot REST service running: Served from " + getClass().getName();
     }
 
